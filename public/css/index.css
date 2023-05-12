@@ -204,7 +204,7 @@
  4) Зробіть так, щоб текст, який не поміщається в елемент, з'являвся в кінці з трьома крапками */
 
 .task_8 div {
-  display: none;
+  visibility: hidden;
 }
 
 .task_8 p {
@@ -232,16 +232,16 @@
     1) Сховайте змінювання розміру елемента за допомогою миші. */
 
 .task_9 h1 {
-  white-space: nowrap;
+  overflow-wrap: normal;
   word-spacing: 30px;
 }
 
 .task_9 div {
-  hyphens: manual;
+  hyphens: auto;
 }
 
 .task_9 p {
-  hyphens: auto;
+  word-break: break-all;
 }
 
 .task_9 textarea {
